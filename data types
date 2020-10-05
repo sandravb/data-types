@@ -1,0 +1,31 @@
+#include<iostream>
+
+int main()
+{
+   int integertype ;
+   char chartype ;
+   float floattype ;
+   double doubletype;
+   
+   // calculate and print
+   // the size of integer type
+   printf("size of int is : %ld\n" ,
+          sizeof(integertype));
+          
+    // calculate and print
+    // the size of chartype
+    printf("size of char is : %d\n" ,
+           sizeof(chartype));
+           
+     // calculate and print
+     // the size of floattype
+     printf("size of float is : %d\n" ,
+            sizeof(floattype));
+            
+      // calculate and print
+      // the size of doubletype
+      printf("size of double is : %d\n" ,
+             sizeof(doubletype));
+      
+      return 0;
+}
